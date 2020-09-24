@@ -1,0 +1,12 @@
+﻿  -- Install configuration: "Release"
+  -- Up-to-date: C:/YOLO/darknetYOLO/darknet/dark.lib
+  -- Up-to-date: C:/YOLO/darknetYOLO/darknet/dark.dll
+  -- Up-to-date: C:/YOLO/darknetYOLO/darknet/include/darknet/darknet.h
+  -- Up-to-date: C:/YOLO/darknetYOLO/darknet/include/darknet/yolo_v2_class.hpp
+  -- Up-to-date: C:/YOLO/darknetYOLO/darknet/uselib.exe
+  -- Installing: C:/YOLO/darknetYOLO/darknet/darknet.exe
+  -- Installing: C:/YOLO/darknetYOLO/darknet/uselib_track.exe
+  -- Up-to-date: C:/YOLO/darknetYOLO/darknet/share/darknet/DarknetTargets.cmake
+  -- Up-to-date: C:/YOLO/darknetYOLO/darknet/share/darknet/DarknetTargets-release.cmake
+  -- Up-to-date: C:/YOLO/darknetYOLO/darknet/share/darknet/DarknetConfig.cmake
+  -- Up-to-date: C:/YOLO/darknetYOLO/darknet/share/darknet/DarknetConfigVersion.cmake

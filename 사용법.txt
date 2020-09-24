@@ -1,0 +1,34 @@
+
+이폴더에서
+
+이미지					  (분석할 그림파일 이름 결과는 predictions.jpg)
+darknet.exe detect cfg/yolov3.cfg yolov3.weights data/person.jpg
+
+저장된 동영상(mp4, avi 등)                 				(분석할 영상파일 이름)		(결과 영상 이름)       
+darknet.exe detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights -ext_output test/test.mp4 -out_filename results.avi
+
+실시간 웹캠
+darknet.exe detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights
+
+
+
+
+[마스크 인식]
+cd C:\YOLO\darknetYOLO\darknet
+
+커스텀 이미지 학습 시
+darknet.exe detector train data/obj.data cfg/yolov3-custom.cfg darknet53.conv.74
+
+
+커스텀 이미지 테스트시
+이미지)
+darknet.exe detector test data/obj_mask.data cfg/cfg_mask.cfg backup/detection_mask.weights data/test3.png
+
+동영상)
+darknet.exe detector demo data/obj_mask.data cfg/cfg_mask.cfg backup/detection_mask.weights test/maskvideo4.mp4 -out_filename test/results.avi
+
+웹캠)
+darknet.exe detector demo data/obj_mask.data cfg/cfg_mask.cfg backup/detection_mask.weights
+
+
+
