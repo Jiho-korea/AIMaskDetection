@@ -14,7 +14,7 @@ darknet.exe detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights
 
 
 [마스크 인식]
-cd C:\YOLO\darknetYOLO\darknet
+cd C:\YOLO\darknetYOLO\darknet-gnu
 
 커스텀 이미지 학습 시
 darknet.exe detector train data/obj.data cfg/yolov3-custom.cfg darknet53.conv.74
